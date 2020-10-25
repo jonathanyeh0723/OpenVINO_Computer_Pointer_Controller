@@ -1,2 +1,7 @@
 # OpenVINO_Computer_Pointer_Controller
- Utilizing the OpenVINO toolkit to run multiple models in the same machine to control your computer pointer, by using your eye gaze.
+
+| Details of Software |                    |                   
+|---------------------|--------------------|
+| OS:                 | Ubuntu\* 18.04 LTS |
+| OpenVINO:           | 2020.3 LTS         |
+| Python:             |  3.6.9             |
