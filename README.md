@@ -1,4 +1,4 @@
-# OpenVINO_Computer_Pointer_Controller
+# Computer Pointer Controller
 
 | Details of Software |                    |                   
 |---------------------|--------------------|
