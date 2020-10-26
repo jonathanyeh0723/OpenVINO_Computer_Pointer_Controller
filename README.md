@@ -190,6 +190,10 @@ There are lots of files contained in this folder and its subdirectories, we can 
 │           ├── landmarks-regression-retail-0009.bin
 │           └── landmarks-regression-retail-0009.xml
 ├── requirements.txt
+├── resources
+│   ├── openvino.jpg
+│   ├── pipeline.png
+│   └── screenshot.jpg
 └── src
     ├── face_detection.py
     ├── facial_landmarks_detection.py
@@ -199,5 +203,6 @@ There are lots of files contained in this folder and its subdirectories, we can 
     ├── main.py
     └── mouse_controller.py
 
-19 directories, 33 files
+20 directories, 36 files
+
 ```
