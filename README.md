@@ -241,9 +241,9 @@ The network takes three inputs: square crop of left eye image, square crop of ri
 ## Results
 Basically, the used plugin for running this program is CPU. The comparison matrix of data points among these 3 precisions are shown as following:
 
-| Measurement            |                    |                   
-|------------------------|--------------------|
-| Model Load Time        | Ubuntu\* 18.04 LTS |
-| Inference Time         | 2020.3 LTS         |
-| Frame Per Second (FPS) |  3.6.9             |
+| Measurement            | FP32  | FP16  | FP16-INT8 |                 
+|------------------------|-------|-------|-----------|
+| Model Load Time        | 0.386 | 0.429 | 0.800     |
+| Inference Time         | 24.175| 25.024| 24.467    |  
+| Frame Per Second (FPS) | 2.441 | 2.358 | 2.411     |
 
