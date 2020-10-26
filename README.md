@@ -143,9 +143,6 @@ optional arguments:
 
 ### Directory Structure
 There are lots of files contained in this folder and its subdirectories, we can run tree to see an overview:
-```
-tree
-```
 
 ```
 .
