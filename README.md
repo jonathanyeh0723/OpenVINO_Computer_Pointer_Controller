@@ -247,3 +247,12 @@ Basically, the used plugin for running this program is CPU. The comparison matri
 | Inference Time         | 24.175| 25.024| 24.467    |  
 | Frame Per Second (FPS) | 2.441 | 2.358 | 2.411     |
 
+Usually the models used with lower precision shall have better inference time and FPS but lack of accuracy. In this case we only test on local machine using CPU, so the differences are not that manifest.
+
+## Further Tasks and Stand Out Suggestions
+Definitely it will be worthy a shot to take extra practices with techniques and skills learned! For instance, we can try:
+
+- Test on multiple hardware or heterogeneous method on the Intel® DevCloud
+
+- Use the VTune amplifier to find hostspots
+
