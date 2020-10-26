@@ -5,3 +5,16 @@
 | OS:                 | Ubuntu\* 18.04 LTS |
 | OpenVINO:           | 2020.3 LTS         |
 | Python:             |  3.6.9             |
+
+## Introduction
+
+The app of Computer Pointer Controller is applied to control the movement of mouse pointer by using gaze detection points.
+
+It is a demonstration to perform complete OpenVINO pipeline from leveraging a pre-trained model with Intel® open model zoo (conduct model optimization if necessary), programming for the preprocessing and post-processing steps to proceed inference, and finally deploy to the edge.
+
+Specifically, we’ll be using 4 different models as following to run this application, which will be detailed addressed further.
+
+- Face Detection Model
+- Facial Landmarks Detection Model
+- Head Pose Estimation Model
+- Gaze Estimation Model
