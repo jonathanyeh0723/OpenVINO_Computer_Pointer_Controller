@@ -28,3 +28,7 @@ Check out this [link](https://software.intel.com/content/www/us/en/develop/tools
 
 ![openvino_logo](./bin/openvino.jpg)
 
+### Step 1: Clone this repository to your workspace
+```
+git clone 
+```
