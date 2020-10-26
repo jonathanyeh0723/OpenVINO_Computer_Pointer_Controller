@@ -30,8 +30,17 @@ Check out this [link](https://software.intel.com/content/www/us/en/develop/tools
 
 Once the installation has been successfully done, we’re good to build this project.
 
-### Set up
+### Build
 #### Step 1: Clone this repository to your workspace
 ```
 git clone https://github.com/jonathanyeh0723/OpenVINO_Computer_Pointer_Controller
+```
+
+#### Source the OpenVINO environment
+```
+source /opt/intel/openvino/bin/setupvars.sh
+```
+We should be able to see the following returned, if it is successful:
+```
+[setupvars.sh] OpenVINO environment initialized
 ```
