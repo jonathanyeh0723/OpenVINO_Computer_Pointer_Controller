@@ -49,22 +49,22 @@ We should be able to see the following returned, if successful:
 ```
 
 #### Step 3: Download the following models by utilizing the model downloader from deep learning toolkit.
-- 3.1: Face Detection Model
+- Face Detection Model
 ```
 python3 /opt/intel/openvino/deployment_tools/tools/model_downloader/downloader.py --name face-detection-retail-0004
 ```
 
-- 3.2: Facial Landmarks Detection Model:
+- Facial Landmarks Detection Model:
 ```
 python3 /opt/intel/openvino/deployment_tools/tools/model_downloader/downloader.py --name landmarks-regression-retail-0009
 ```
 
-- 3.3: Head Pose Estimation Model:
+- Head Pose Estimation Model:
 ```
 python3 /opt/intel/openvino/deployment_tools/tools/model_downloader/downloader.py --name landmarks-regression-retail-0009
 ```
 
-- 3.4: Gaze Estimation Model
+- Gaze Estimation Model
 ```
 python3 /opt/intel/openvino/deployment_tools/tools/model_downloader/downloader.py --name gaze-estimation-adas-0002
 ```
