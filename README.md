@@ -96,10 +96,46 @@ We should be able to see the demo video popped-out and related info reflected on
 ![demo_screenshot](./bin/screenshot.jpg)
 
 ```
+[ INFO ] Start inferencing...
 [ INFO ] Executed demo successfully.
 [ INFO ] Model loading time: 0.326 seconds
 [ INFO ] Inference time: 22.910 seconds
 [ INFO ] FPS: 2.575 seconds
 ```
 
+## Documentation
 
+### Command Line Arguments
+```
+usage: main.py [-h] -fd FACEDETECTIONMODEL -fl FACIALLANDMARKMODEL -hp
+               HEADPOSEMODEL -ge GAZEESTIMATIONMODEL -i INPUT [-d DEVICE]
+               [-l CPU_EXTENSION] [-pt PROB_THRESHOLD] [-s SHOW [SHOW ...]]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -fd FACEDETECTIONMODEL, --facedetectionmodel FACEDETECTIONMODEL
+                        Required. Path to .xml file with Face Detection model.
+  -fl FACIALLANDMARKMODEL, --faciallandmarkmodel FACIALLANDMARKMODEL
+                        Required. Path to .xml file with Facial Landmark
+                        Detection model.
+  -hp HEADPOSEMODEL, --headposemodel HEADPOSEMODEL
+                        Required. Path to .xml file with Head Pose Estimation
+                        model.
+  -ge GAZEESTIMATIONMODEL, --gazeestimationmodel GAZEESTIMATIONMODEL
+                        Required. Path to .xml file with Gaze Estimation
+                        model.
+  -i INPUT, --input INPUT
+                        Required. To specify input video or webcam
+  -d DEVICE, --device DEVICE
+                        To specify target device for inference
+  -l CPU_EXTENSION, --cpu_extension CPU_EXTENSION
+                        MKLDNN (CPU)-targeted custom layers. Absolute path to
+                        a shared library with the kernels impl.
+  -pt PROB_THRESHOLD, --prob_threshold PROB_THRESHOLD
+                        Probability threshold for detections filtering
+  -s SHOW [SHOW ...], --show SHOW [SHOW ...]
+                        To show the inference results. Use example: -s fd fld
+                        hp ge; fd for Face Detection, fld for Facial Landmark
+                        Detection, hp for Head Pose Estimation, ge for Gaze
+
+```
