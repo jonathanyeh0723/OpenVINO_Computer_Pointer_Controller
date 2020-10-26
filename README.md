@@ -91,4 +91,15 @@ python3 main.py \
         -s fd fld hp ge
 ```
 
+We should be able to see the demo video popped-out and related info as following:
+
+[demo_screenshot](./bin/screenshot.jpg)
+
+```
+[ INFO ] Executed demo successfully.
+[ INFO ] Model loading time: 0.326 seconds
+[ INFO ] Inference time: 22.910 seconds
+[ INFO ] FPS: 2.575 seconds
+```
+
 
