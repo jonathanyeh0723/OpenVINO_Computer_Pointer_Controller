@@ -20,3 +20,9 @@ Specifically, we’ll be using 4 different models as following to run this appli
 - Gaze Estimation Model
 
 ![workflow](./bin/pipeline.png)
+
+## Project Set Up and Installation
+
+### Prerequisites
+Check out this link to get the Intel® Distribution of OpenVINO™ Toolkit. The detailed guide of installing it for Linux* OS can be referred to here
+
