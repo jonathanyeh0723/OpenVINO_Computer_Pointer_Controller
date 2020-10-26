@@ -219,3 +219,9 @@ Head pose estimation network based on simple, handmade CNN architecture. Angle r
 
 #### [Gaze Estimation Model](https://docs.openvinotoolkit.org/latest/omz_models_intel_gaze_estimation_adas_0002_description_gaze_estimation_adas_0002.html)
 The network takes three inputs: square crop of left eye image, square crop of right eye image, and three head pose angles – (yaw, pitch, and roll) (see figure). The network outputs 3-D vector corresponding to the direction of a person's gaze in a Cartesian coordinate system in which z-axis is directed from person's eyes (mid-point between left and right eyes' centers) to the camera center, y-axis is vertical, and x-axis is orthogonal to both z,y axes so that (x,y,z) constitute a right-handed coordinate system.
+
+## Benchmark
+
+### Hardware
+- CPU: Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz
+- Memory: 16.0 GB
