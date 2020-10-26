@@ -28,7 +28,10 @@ Check out this [link](https://software.intel.com/content/www/us/en/develop/tools
 
 ![openvino_logo](./bin/openvino.jpg)
 
-### Step 1: Clone this repository to your workspace
+Once the installation has been successfully done, we’re good to build this project.
+
+### S
+#### Step 1: Clone this repository to your workspace
 ```
 git clone https://github.com/jonathanyeh0723/OpenVINO_Computer_Pointer_Controller
 ```
