@@ -225,3 +225,7 @@ The network takes three inputs: square crop of left eye image, square crop of ri
 ### Hardware
 - CPU: Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz
 - Memory: 16.0 GB
+
+#### Model Load Time
+
+![model_load_time](./resources/model_load_time.jpg)
