@@ -228,4 +228,4 @@ The network takes three inputs: square crop of left eye image, square crop of ri
 
 #### Model Load Time
 
-![model_load_time](./resources/model_load_time.jpg)
+![model_load_time](./resources/model_load_time.png)
