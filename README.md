@@ -205,3 +205,10 @@ There are lots of files contained in this folder and its subdirectories, we can 
 
 20 directories, 36 files
 ```
+
+### Used Models
+
+#### [Face Detection Model](https://docs.openvinotoolkit.org/2018_R5/_docs_Retail_object_detection_face_sqnet10modif_ssd_0004_caffe_desc_face_detection_retail_0004.html)
+Face detector based on SqueezeNet light (half-channels) as a backbone with a single SSD for indoor/outdoor scenes shot by a front-facing camera. The backbone consists of fire modules to reduce the number of computations. The single SSD head from 1/16 scale feature map has nine clustered prior boxes.
+
+####
