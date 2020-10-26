@@ -93,7 +93,7 @@ python3 main.py \
 
 We should be able to see the demo video popped-out and related info as following:
 
-[demo_screenshot](./bin/screenshot.jpg)
+![demo_screenshot](./bin/screenshot.jpg)
 
 ```
 [ INFO ] Executed demo successfully.
