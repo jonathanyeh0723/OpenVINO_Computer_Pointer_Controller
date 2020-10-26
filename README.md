@@ -49,6 +49,11 @@ We should be able to see the following returned, if successful:
 ```
 
 #### Step 3: Download the following models by utilizing the model downloader from deep learning toolkit.
+Change to OpenVINO_Computer_Pointer_Controller directory
+```
+cd OpenVINO_Computer_Pointer_Controller
+```
+
 - Face Detection Model
 ```
 python3 /opt/intel/openvino/deployment_tools/tools/model_downloader/downloader.py --name face-detection-retail-0004
