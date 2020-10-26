@@ -213,3 +213,9 @@ Face detector based on SqueezeNet light (half-channels) as a backbone with a sin
 
 #### [Facial Landmarks Detection Model](https://docs.openvinotoolkit.org/latest/omz_models_intel_landmarks_regression_retail_0009_description_landmarks_regression_retail_0009.html)
 This is a lightweight landmarks regressor for the Smart Classroom scenario. It has a classic convolutional design: stacked 3x3 convolutions, batch normalizations, PReLU activations, and poolings. Final regression is done by the global depthwise pooling head and FullyConnected layers. The model predicts five facial landmarks: two eyes, nose, and two lip corners.
+
+#### [Head Pose Estimation Model](https://docs.openvinotoolkit.org/latest/omz_models_intel_head_pose_estimation_adas_0001_description_head_pose_estimation_adas_0001.html)
+Head pose estimation network based on simple, handmade CNN architecture. Angle regression layers are convolutions + ReLU + batch norm + fully connected with one output.
+
+#### [Gaze Estimation Model](https://docs.openvinotoolkit.org/latest/omz_models_intel_gaze_estimation_adas_0002_description_gaze_estimation_adas_0002.html)
+The network takes three inputs: square crop of left eye image, square crop of right eye image, and three head pose angles – (yaw, pitch, and roll) (see figure). The network outputs 3-D vector corresponding to the direction of a person's gaze in a Cartesian coordinate system in which z-axis is directed from person's eyes (mid-point between left and right eyes' centers) to the camera center, y-axis is vertical, and x-axis is orthogonal to both z,y axes so that (x,y,z) constitute a right-handed coordinate system.
