@@ -30,5 +30,5 @@ Check out this [link](https://software.intel.com/content/www/us/en/develop/tools
 
 ### Step 1: Clone this repository to your workspace
 ```
-git clone 
+git clone https://github.com/jonathanyeh0723/OpenVINO_Computer_Pointer_Controller
 ```
