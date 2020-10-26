@@ -28,7 +28,10 @@ Check out this [link](https://software.intel.com/content/www/us/en/develop/tools
 
 ![openvino_logo](./bin/openvino.jpg)
 
-Once the installation has been successfully done, we’re good to build this project.
+Once the installation has been successfully done, make sure to check all of the modules met the requirements before building this project.
+```
+pip3 install -r requirements.txt
+```
 
 ### Build
 #### Step 1: Clone this repository to your workspace
