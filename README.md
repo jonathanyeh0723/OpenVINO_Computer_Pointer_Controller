@@ -233,3 +233,7 @@ The network takes three inputs: square crop of left eye image, square crop of ri
 #### Inference Time
 
 ![inference_time](./resources/inference_time.png)
+
+#### Frame Per Second (FPS)
+
+![fps](./resources/fps.png)
