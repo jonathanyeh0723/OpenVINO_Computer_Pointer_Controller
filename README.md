@@ -91,7 +91,7 @@ python3 main.py \
         -s fd fld hp ge
 ```
 
-We should be able to see the demo video popped-out and related info as following:
+We should be able to see the demo video popped-out and related info reflected on the console:
 
 ![demo_screenshot](./bin/screenshot.jpg)
 
