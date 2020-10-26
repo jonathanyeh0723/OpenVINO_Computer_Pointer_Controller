@@ -36,7 +36,7 @@ Once the installation has been successfully done, we’re good to build this pro
 git clone https://github.com/jonathanyeh0723/OpenVINO_Computer_Pointer_Controller
 ```
 
-#### Source the OpenVINO environment
+#### Step 2: Source the OpenVINO environment
 ```
 source /opt/intel/openvino/bin/setupvars.sh
 ```
@@ -44,3 +44,6 @@ We should be able to see the following returned, if it is successful:
 ```
 [setupvars.sh] OpenVINO environment initialized
 ```
+
+#### Step 3: #### Step 3: Download the following models by utilizing the model downloader from deep learning toolkit.
+- 3.1, Face Detection Model:
