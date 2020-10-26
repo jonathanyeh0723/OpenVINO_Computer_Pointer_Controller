@@ -237,3 +237,13 @@ The network takes three inputs: square crop of left eye image, square crop of ri
 #### Frame Per Second (FPS)
 
 ![fps](./resources/fps.png)
+
+## Results
+Basically, the used plugin for running this program is CPU. The comparison matrix of data points among these 3 precisions are shown as following:
+
+| Measurement            |                    |                   
+|------------------------|--------------------|
+| Model Load Time        | Ubuntu\* 18.04 LTS |
+| Inference Time         | 2020.3 LTS         |
+| Frame Per Second (FPS) |  3.6.9             |
+
