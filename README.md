@@ -75,6 +75,11 @@ Open a new terminal, change to the directory including main function and .py fil
 cd OpenVINO_Computer_Pointer_Controller/src/
 ```
 
+Ensure OpenVINO environment initialized
+```
+source /opt/intel/openvino/bin/setupvars.sh
+```
+
 Run the demo
 ```
 python3 main.py \
@@ -85,3 +90,5 @@ python3 main.py \
         -i ../bin/demo.mp4 \
         -s fd fld hp ge
 ```
+
+
