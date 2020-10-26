@@ -18,3 +18,5 @@ Specifically, we’ll be using 4 different models as following to run this appli
 - Facial Landmarks Detection Model
 - Head Pose Estimation Model
 - Gaze Estimation Model
+
+![workflow](./bin/pipeline.png)
