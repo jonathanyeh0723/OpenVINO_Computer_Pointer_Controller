@@ -106,6 +106,8 @@ We should be able to see the demo video popped-out and related info reflected on
 ## Documentation
 
 ### Command Line Arguments
+
+To get to know how to use the arguments, run python3 main.py -h from the command line:
 ```
 usage: main.py [-h] -fd FACEDETECTIONMODEL -fl FACIALLANDMARKMODEL -hp
                HEADPOSEMODEL -ge GAZEESTIMATIONMODEL -i INPUT [-d DEVICE]
@@ -137,5 +139,4 @@ optional arguments:
                         To show the inference results. Use example: -s fd fld
                         hp ge; fd for Face Detection, fld for Facial Landmark
                         Detection, hp for Head Pose Estimation, ge for Gaze
-
 ```
