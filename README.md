@@ -140,3 +140,67 @@ optional arguments:
                         hp ge; fd for Face Detection, fld for Facial Landmark
                         Detection, hp for Head Pose Estimation, ge for Gaze
 ```
+
+### Directory Structure
+There are lots of files contained in this folder and its subdirectories, we can run tree to see an overview:
+```
+tree
+```
+
+```
+.
+├── bin
+│   └── demo.mp4
+├── intel
+│   ├── face-detection-retail-0004
+│   │   ├── FP16
+│   │   │   ├── face-detection-retail-0004.bin
+│   │   │   └── face-detection-retail-0004.xml
+│   │   ├── FP16-INT8
+│   │   │   ├── face-detection-retail-0004.bin
+│   │   │   └── face-detection-retail-0004.xml
+│   │   └── FP32
+│   │       ├── face-detection-retail-0004.bin
+│   │       └── face-detection-retail-0004.xml
+│   ├── gaze-estimation-adas-0002
+│   │   ├── FP16
+│   │   │   ├── gaze-estimation-adas-0002.bin
+│   │   │   └── gaze-estimation-adas-0002.xml
+│   │   ├── FP16-INT8
+│   │   │   ├── gaze-estimation-adas-0002.bin
+│   │   │   └── gaze-estimation-adas-0002.xml
+│   │   └── FP32
+│   │       ├── gaze-estimation-adas-0002.bin
+│   │       └── gaze-estimation-adas-0002.xml
+│   ├── head-pose-estimation-adas-0001
+│   │   ├── FP16
+│   │   │   ├── head-pose-estimation-adas-0001.bin
+│   │   │   └── head-pose-estimation-adas-0001.xml
+│   │   ├── FP16-INT8
+│   │   │   ├── head-pose-estimation-adas-0001.bin
+│   │   │   └── head-pose-estimation-adas-0001.xml
+│   │   └── FP32
+│   │       ├── head-pose-estimation-adas-0001.bin
+│   │       └── head-pose-estimation-adas-0001.xml
+│   └── landmarks-regression-retail-0009
+│       ├── FP16
+│       │   ├── landmarks-regression-retail-0009.bin
+│       │   └── landmarks-regression-retail-0009.xml
+│       ├── FP16-INT8
+│       │   ├── landmarks-regression-retail-0009.bin
+│       │   └── landmarks-regression-retail-0009.xml
+│       └── FP32
+│           ├── landmarks-regression-retail-0009.bin
+│           └── landmarks-regression-retail-0009.xml
+├── requirements.txt
+└── src
+    ├── face_detection.py
+    ├── facial_landmarks_detection.py
+    ├── gaze_estimation.py
+    ├── head_pose_estimation.py
+    ├── input_feeder.py
+    ├── main.py
+    └── mouse_controller.py
+
+19 directories, 33 files
+```
