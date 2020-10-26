@@ -68,3 +68,20 @@ python3 /opt/intel/openvino/deployment_tools/tools/model_downloader/downloader.p
 ```
 python3 /opt/intel/openvino/deployment_tools/tools/model_downloader/downloader.py --name gaze-estimation-adas-0002
 ```
+
+## Demo
+Open a new terminal, change to the directory including main function and .py files.
+```
+cd OpenVINO_Computer_Pointer_Controller/src/
+```
+
+Run the demo
+```
+python3 main.py \
+        -fd /home/intel/OpenVINO_Computer_Pointer_Controller/intel/face-detection-retail-0004/FP32/face-detection-retail-0004.xml \
+        -fl /home/intel/OpenVINO_Computer_Pointer_Controller/intel/landmarks-regression-retail-0009/FP32/landmarks-regression-retail-0009.xml \
+        -hp /home/intel/OpenVINO_Computer_Pointer_Controller/intel/head-pose-estimation-adas-0001/FP32/head-pose-estimation-adas-0001.xml \
+        -ge /home/intel/OpenVINO_Computer_Pointer_Controller/intel/gaze-estimation-adas-0002/FP32/gaze-estimation-adas-0002.xml \
+        -i ../bin/demo.mp4 \
+        -s fd fld hp ge
+```
