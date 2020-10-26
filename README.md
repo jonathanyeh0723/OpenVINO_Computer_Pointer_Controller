@@ -75,12 +75,12 @@ Open a new terminal, change to the directory including main function and .py fil
 cd OpenVINO_Computer_Pointer_Controller/src/
 ```
 
-Ensure OpenVINO environment initialized
+Ensure OpenVINO environment initialized.
 ```
 source /opt/intel/openvino/bin/setupvars.sh
 ```
 
-Run the demo
+Run the demo.
 ```
 python3 main.py \
         -fd /home/intel/OpenVINO_Computer_Pointer_Controller/intel/face-detection-retail-0004/FP32/face-detection-retail-0004.xml \
@@ -204,5 +204,4 @@ There are lots of files contained in this folder and its subdirectories, we can 
     └── mouse_controller.py
 
 20 directories, 36 files
-
 ```
