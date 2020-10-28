@@ -85,7 +85,7 @@ Ensure OpenVINO environment initialized.
 source /opt/intel/openvino/bin/setupvars.sh
 ```
 
-Run the demo.
+Run the demo (Note to confirm your base directory in advance, e.g. /home/intel for this workspace).
 ```
 python3 main.py \
         -fd /home/intel/OpenVINO_Computer_Pointer_Controller/intel/face-detection-retail-0004/FP32/face-detection-retail-0004.xml \
