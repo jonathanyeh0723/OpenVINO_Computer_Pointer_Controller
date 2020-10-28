@@ -12,7 +12,7 @@ The app of Computer Pointer Controller is applied to control the movement of mou
 
 It is a demonstration to perform complete OpenVINO pipeline from leveraging a pre-trained model with Intel® open model zoo (conduct model optimization if necessary), programming for the preprocessing and post-processing steps to proceed inference, and finally deploy to the edge.
 
-Specifically, we’ll be using 4 different models as following to run this application, which will be detailed addressed further.
+Specifically, we’ll be using 4 different models as following to run this application, which will be detailed further.
 
 - Face Detection Model
 - Facial Landmarks Detection Model
